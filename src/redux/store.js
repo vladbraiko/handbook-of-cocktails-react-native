@@ -1,7 +1,7 @@
-import { applyMiddleware, combineReducers, createStore } from "redux";
-import thunk from "redux-thunk";
-import { drinkReducer } from "./reducers/DrinksReducer";
-import { filterReducer } from "./reducers/FIltersReducer";
+import { applyMiddleware, combineReducers, createStore } from 'redux';
+import thunk from 'redux-thunk';
+import { drinkReducer } from './reducers/drinks-reducer';
+import { filterReducer } from './reducers/fIlters-reducer';
 
 const rootReducer = combineReducers({
   drinks: drinkReducer,
